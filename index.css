@@ -1,7 +1,7 @@
 
 .logo{
-    height:115px;
-    width:165px;
+    height:135px;
+    width:185px;
     /* border:1px solid black; */
     background-size:cover;
     /* display:flex; 
@@ -29,30 +29,59 @@
     left:750px;
     bottom: 780px;
 }
+.Acceuil:hover{
+    transform:translateY(-1.9rem);
+    /* text-decoration:underline; */
+    text-underline-offset: .6rem;
+    border-bottom: .5rem chocolate solid;
+} 
 .Apropos{
     height:80px;
-    width:120px;
+    width:140px;
     position:relative;
     left:1000px;
     bottom: 860px; 
 }
+.Apropos:hover{
+    transform:translateY(-1.9rem);
+    /* text-decoration:underline; */
+    text-underline-offset: .6rem;
+    border-bottom: .5rem chocolate solid;
+} 
 .Carriere{
     height:80px;
     width:150px;
     position:relative;
     left:1245px;
+    
     bottom: 940px;
 }
+.Carriere:hover{
+    transform:translateY(-1.9rem);
+    /* text-decoration:underline; */
+    text-underline-offset: .6rem;
+    border-bottom: .5rem chocolate solid;
+} 
 .contacter{
     height:40px;
-    width:200px;
+    width:220px;
     position:relative;
     left:1480px;
-    bottom: 1060px;   
+    bottom: 1080px;   
+}
+.contacter:hover{
+    transform:translateY(-1.9rem);
+    /* text-decoration:underline; */
+    text-underline-offset: .8rem;
+    border-bottom: .5rem chocolate solid;
+} 
+/* variables */
+:root{
+    --bgcol:
 }
 .Contact{
-    height:30px;
-    width:190px;
+    height:50px;
+    width:200px;
     position:relative;
     left:1800px;
     bottom: 1020px;  
@@ -61,12 +90,21 @@
      display:flex;
     justify-content:center;
     padding-top:3px;
+    border-radius:.7rem;
 }
-.entete{
-    font-size:25px;
-    font-weight:bold; 
+.Contact::hover{
 
 }
+.entete{
+    font-size:27px;
+    font-weight:bold; 
+
+
+}
+ .entete:hover{
+text-decoration:underline;
+text-underline-offset: 1rem;
+} 
 .texte{
     height:70px;
     width:850px;
@@ -102,6 +140,9 @@
     font-size:30px;
     padding:3px;
     background-color:chocolate;
+    border-radius:.7rem;
+}
+
 }
 .design{
     height:650px;
@@ -132,4 +173,14 @@
     bottom: -850px;
     /* left:60px;  */
     background-size:cover; 
+}
+/*aligner selon l'horizontale
+balise
+header{
+display:flex;
+justify-content:space-between;
+                space-arround;
+                space evenly;
+gap:rem; met les espacements en fonction de l'ecran;
+
 }
