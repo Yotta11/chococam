@@ -1,0 +1,135 @@
+
+.logo{
+    height:115px;
+    width:165px;
+    /* border:1px solid black; */
+    background-size:cover;
+    /* display:flex; 
+     gap:20px;  */
+    background-image:url("../assets/image/logo.jpeg");
+    position:relative;
+    left:50px; */
+    bottom: 25px;
+}
+.cacao{
+    height:700px;
+    width:1000px;
+    background-image:url("../assets/image/cacao.jpeg");
+    /* display:flex;
+    gap: 26px; */
+    background-size:cover;
+    position:relative;
+    left:1000px;
+    bottom: 5px;
+}
+.Acceuil{
+    height:80px;
+    width:100px;
+    position:relative;
+    left:750px;
+    bottom: 780px;
+}
+.Apropos{
+    height:80px;
+    width:120px;
+    position:relative;
+    left:1000px;
+    bottom: 860px; 
+}
+.Carriere{
+    height:80px;
+    width:150px;
+    position:relative;
+    left:1245px;
+    bottom: 940px;
+}
+.contacter{
+    height:40px;
+    width:200px;
+    position:relative;
+    left:1480px;
+    bottom: 1060px;   
+}
+.Contact{
+    height:30px;
+    width:190px;
+    position:relative;
+    left:1800px;
+    bottom: 1020px;  
+     border:1px solid black; 
+     background-color:chocolate;
+     display:flex;
+    justify-content:center;
+    padding-top:3px;
+}
+.entete{
+    font-size:25px;
+    font-weight:bold; 
+
+}
+.texte{
+    height:70px;
+    width:850px;
+    color:black;
+    position:relative;
+    /* border:1px solid black;  */
+    bottom: 900px; 
+    display:flex;
+    justify-content:center; 
+    font-size:35px;
+}
+.petit{
+    height:90px;
+    width:600px;
+    color:black;
+    position:relative;
+     /* border:1px solid black;   */
+    bottom: 730px;
+    left:60px; 
+    display:flex;
+    justify-content:center; 
+    font-size:30px
+}
+.bouton{
+    height:50px;
+    width:500px;
+    border:1px solid black; 
+    position:relative; 
+    bottom: 600px;
+    left:60px; 
+    display:flex;
+    justify-content:center;
+    font-size:30px;
+    padding:3px;
+    background-color:chocolate;
+}
+.design{
+    height:650px;
+    width:1150px;
+    background-image:url("../assets/image/Frame.jpeg");
+
+    position:relative; 
+    bottom: 300px;
+    left:60px; 
+    background-size:cover;
+}
+.bande{
+    height:500px;
+    width:1950px;
+    background-image:url("../assets/image/frame.jpg");
+
+    position:relative; 
+    bottom: 200px;
+    /* left:60px;  */
+    background-size:cover;  
+}
+.big{
+    height:200px;
+    width:300px;
+    background-image:url("../assets/image/vector.jpg");
+    background-image:url("../assets/image/big.jpeg");
+    position:relative; 
+    bottom: -850px;
+    /* left:60px;  */
+    background-size:cover; 
+}
